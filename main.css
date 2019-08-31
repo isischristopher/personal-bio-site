@@ -1,4 +1,84 @@
 body{
-    background-color: olive;
+    background-color: rosybrown;
  }
  
+ .title{
+    padding: 35px;
+    text-align: center;
+    background: #d7ccc8;
+    color: white;
+    font-size: 40px;
+    font-family: 'Tangerine', serif;
+ }
+ .navbar{
+    font-family: futura-pt, sans-serif;
+   
+ }
+
+ .title{
+    font-family: futura-pt, sans-serif;
+    margin: 50px, 0px;
+ }
+
+ #h1{
+    font-size: 90px;
+    padding: 0px 40px;
+    margin;
+ }
+ #h1P{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+ }
+ .navbar-nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    padding: 0px 80px 0px 20px;
+
+ }
+ h3.bio{
+    font-family: futura-pt, sans-serif;
+    margin: 0px, 0px, 30px;
+ }
+#bioPage.fullPage{
+    margin: 70px 70px 0px;
+    padding: 10px;
+    font-family: futura-pt, sans-serif;
+}
+#technologiesPage.fullPage{
+    margin: 0px 70px 0px ;
+    padding: 10px;
+    font-family: futura-pt, sans-serif;
+}
+.p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.navbar-nav-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    align-items: stretch;
+
+ }
+.title{
+        /* The image used */
+        background-image: url("./images/InstaWestinShoot-3.jpg");
+        opacity: 0.6;
+      
+        /* Set a specific height */
+        height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+    
+}
+
+
+
+
