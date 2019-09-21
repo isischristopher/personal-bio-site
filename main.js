@@ -78,8 +78,21 @@ const createProjectCards = (projectsArray) => {
                 `;
         }
     }
-    printToDom(domString, 'projectsPage');
+    printToDom(domString, 'projectsZone');
 }
- createProjectCards(projects);
+
+
+ // CLICK FUNCTION FOR NAVBAR//
+
+ const filterNavLinks= document.getElementById('navLinks').getElementsByTagName('a');
+    for (i=0; i < 4; i++){
+        
+    }
+
+// INIT
+const init = () => {
+    createProjectCards(projects);
+}
+init();
 
 
