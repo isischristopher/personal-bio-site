@@ -12,6 +12,8 @@ body{
  }
  .navbar{
     font-family: futura-pt, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
    
  }
 
@@ -23,11 +25,11 @@ body{
  #h1{
     font-size: 70px;
     padding: 0px 40px;
-    margin;
+    margin-top: 75px;
  }
  #h1P{
     font-size: 30px;
-    margin: 0;
+    margin-bottom: -120;
     padding: 0;
  }
  .navbar-nav{
@@ -40,6 +42,7 @@ body{
  h3.bio{
     font-family: futura-pt, sans-serif;
     margin: 0px, 0px, 30px;
+    padding: 0x 100px;
  }
 #bioPage.fullPage{
     margin: 70px 70px 0px;
@@ -81,7 +84,7 @@ body{
 
 /* JS  */
 
-#projectsPage{
+#projectsZone{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-evenly;
